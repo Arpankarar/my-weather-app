@@ -31,5 +31,5 @@ app.get("*",(req,res)=>{
     res.render("404error");
 });
 app.listen(port,()=>{
-    console.log("server is running at port 8000!!");
+    console.log(`server is running at port ${port}`);
 });
